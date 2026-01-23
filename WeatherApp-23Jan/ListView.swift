@@ -46,7 +46,9 @@ struct ListView: View {
                             .foregroundStyle(Color.white)
                     }
                 })
-                .searchable(text: $viewModel.searchText, prompt: "Search Location")
+                .searchable(text: $viewModel.searchText,
+                            placement: .navigationBarDrawer(displayMode: .always),
+                            prompt: "Search Location")
                 
             }.scrollContentBackground(.hidden)
         }

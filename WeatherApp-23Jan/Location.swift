@@ -33,7 +33,7 @@ enum Weather {
         let max: Int
         
         var temperatureText : String {
-            "\(min) `C/\(max) `C"
+            "\(min) `C  / \(max) `C"
         }
     }
     
