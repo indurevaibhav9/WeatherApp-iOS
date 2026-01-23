@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		246E08CB2F23D3AA007342DA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 246E08CA2F23D39A007342DA /* README.md */; };
+		246E08CE2F23D6AC007342DA /* landing page.png in Resources */ = {isa = PBXBuildFile; fileRef = 246E08CD2F23D6AC007342DA /* landing page.png */; };
+		246E08D02F23D6F1007342DA /* list of cities.png in Resources */ = {isa = PBXBuildFile; fileRef = 246E08CF2F23D6F1007342DA /* list of cities.png */; };
+		246E08D22F23D704007342DA /* weather details of city.png in Resources */ = {isa = PBXBuildFile; fileRef = 246E08D12F23D704007342DA /* weather details of city.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		246E089F2F235009007342DA /* WeatherApp-23Jan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherApp-23Jan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246E08CA2F23D39A007342DA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
+		246E08CD2F23D6AC007342DA /* landing page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landing page.png"; sourceTree = "<group>"; };
+		246E08CF2F23D6F1007342DA /* list of cities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list of cities.png"; sourceTree = "<group>"; };
+		246E08D12F23D704007342DA /* weather details of city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather details of city.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +43,8 @@
 		246E08962F235009007342DA = {
 			isa = PBXGroup;
 			children = (
+				246E08CC2F23D696007342DA /* Screenshots  */,
+				246E08CA2F23D39A007342DA /* README.md */,
 				246E08A12F235009007342DA /* WeatherApp-23Jan */,
 				246E08A02F235009007342DA /* Products */,
 			);
@@ -43,6 +56,16 @@
 				246E089F2F235009007342DA /* WeatherApp-23Jan.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		246E08CC2F23D696007342DA /* Screenshots  */ = {
+			isa = PBXGroup;
+			children = (
+				246E08CD2F23D6AC007342DA /* landing page.png */,
+				246E08CF2F23D6F1007342DA /* list of cities.png */,
+				246E08D12F23D704007342DA /* weather details of city.png */,
+			);
+			path = "Screenshots ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246E08D02F23D6F1007342DA /* list of cities.png in Resources */,
+				246E08CE2F23D6AC007342DA /* landing page.png in Resources */,
+				246E08D22F23D704007342DA /* weather details of city.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246E08CB2F23D3AA007342DA /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
