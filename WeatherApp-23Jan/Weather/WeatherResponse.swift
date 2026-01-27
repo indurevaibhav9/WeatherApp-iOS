@@ -25,24 +25,35 @@ case current
 }
 }
 
-// MARK: - Current
 struct Current: Codable {
-let time: String
-let interval: Int
-let temperature2M: Double
+    let time: String
+    let interval: Int
+    let temperature2M: Double
+    let windSpeed10M: Double
+    let relativeHumidity2M: Int
+    let weatherCode: Int
 
-enum CodingKeys: String, CodingKey {
-case time, interval
-case temperature2M = "temperature_2m"
-}
+    enum CodingKeys: String, CodingKey {
+        case time, interval
+        case temperature2M = "temperature_2m"
+        case windSpeed10M = "wind_speed_10m"
+        case relativeHumidity2M = "relative_humidity_2m"
+        case weatherCode = "weather_code"
+    }
 }
 
-// MARK: - CurrentUnits
+
 struct CurrentUnits: Codable {
-let time, interval, temperature2M: String
+    let time, interval: String
+    let temperature2M: String
+    let windSpeed10M: String
+    let relativeHumidity2M: String
 
-enum CodingKeys: String, CodingKey {
-case time, interval
-case temperature2M = "temperature_2m"
+    enum CodingKeys: String, CodingKey {
+        case time, interval
+        case temperature2M = "temperature_2m"
+        case windSpeed10M = "wind_speed_10m"
+        case relativeHumidity2M = "relative_humidity_2m"
+    }
 }
-}
+

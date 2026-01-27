@@ -39,22 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AE283A97-03E7-4B1E-A70A-B59EEC4292FF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherApp-23Jan/DetailViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "fetchWeather(latitude:longitude:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "945FFA01-0FD8-4D75-A3BF-F86CA5F466E4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -82,80 +66,6 @@
             endingLineNumber = "25"
             landmarkName = "fetchWeather(latitude:longitude:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "87CB0F03-6882-44E3-B7A5-C9C42D1B8472 - 24080425d37098f9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for WeatherApp_iOS.WeatherService.fetchWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; WeatherApp_iOS.WeatherResponse"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Weather/WeatherService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-               <Location
-                  uuid = "87CB0F03-6882-44E3-B7A5-C9C42D1B8472 - 216a6b0cd1ab718d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for WeatherApp_iOS.WeatherService.fetchWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; WeatherApp_iOS.WeatherResponse"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Weather/WeatherService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-               <Location
-                  uuid = "87CB0F03-6882-44E3-B7A5-C9C42D1B8472 - 4df698ea6481dcfb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for WeatherApp_iOS.WeatherService.fetchWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; WeatherApp_iOS.WeatherResponse"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Weather/WeatherService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-               <Location
-                  uuid = "87CB0F03-6882-44E3-B7A5-C9C42D1B8472 - 4149ab4b43baa2fc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for WeatherApp_iOS.WeatherService.fetchWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; WeatherApp_iOS.WeatherResponse"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Weather/WeatherService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8829DDE6-6D25-4693-A15B-BC73C62CB594"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherApp-23Jan/DetailViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "fetchWeather(latitude:longitude:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -172,50 +82,6 @@
             endingLineNumber = "18"
             landmarkName = "request(endpoint:responseType:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3F1FA912-ADFF-435C-8F19-E5ED545F931F - 3a6470bcea61bf5c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for WeatherApp_iOS.HttpNetworking.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WeatherApp_iOS.APIEndpoint, responseType: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Network/HttpNetworking.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18">
-               </Location>
-               <Location
-                  uuid = "3F1FA912-ADFF-435C-8F19-E5ED545F931F - f63bfd14e7cd1dc5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for WeatherApp_iOS.HttpNetworking.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WeatherApp_iOS.APIEndpoint, responseType: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Network/HttpNetworking.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18">
-               </Location>
-               <Location
-                  uuid = "3F1FA912-ADFF-435C-8F19-E5ED545F931F - a7bae7758e3ad2db"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for WeatherApp_iOS.HttpNetworking.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WeatherApp_iOS.APIEndpoint, responseType: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Network/HttpNetworking.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -232,36 +98,6 @@
             endingLineNumber = "20"
             landmarkName = "request(endpoint:responseType:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "74AF7DAB-5B26-4C7D-9723-391B6798D814 - 8d5f6e6d59e57798"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for WeatherApp_iOS.HttpNetworking.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WeatherApp_iOS.APIEndpoint, responseType: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Network/HttpNetworking.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20">
-               </Location>
-               <Location
-                  uuid = "74AF7DAB-5B26-4C7D-9723-391B6798D814 - 8d5f6e6d59e57798"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for WeatherApp_iOS.HttpNetworking.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WeatherApp_iOS.APIEndpoint, responseType: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/Network/HttpNetworking.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

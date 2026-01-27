@@ -10,6 +10,7 @@
 		246E08CE2F23D6AC007342DA /* landing page.png in Resources */ = {isa = PBXBuildFile; fileRef = 246E08CD2F23D6AC007342DA /* landing page.png */; };
 		246E08D02F23D6F1007342DA /* list of cities.png in Resources */ = {isa = PBXBuildFile; fileRef = 246E08CF2F23D6F1007342DA /* list of cities.png */; };
 		246E08D22F23D704007342DA /* weather details of city.png in Resources */ = {isa = PBXBuildFile; fileRef = 246E08D12F23D704007342DA /* weather details of city.png */; };
+		246E08FC2F28E270007342DA /* realtime data in Resources */ = {isa = PBXBuildFile; fileRef = 246E08FB2F28E270007342DA /* realtime data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		246E08CD2F23D6AC007342DA /* landing page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landing page.png"; sourceTree = "<group>"; };
 		246E08CF2F23D6F1007342DA /* list of cities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list of cities.png"; sourceTree = "<group>"; };
 		246E08D12F23D704007342DA /* weather details of city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather details of city.png"; sourceTree = "<group>"; };
+		246E08FB2F28E270007342DA /* realtime data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "realtime data"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -63,6 +65,7 @@
 				246E08CD2F23D6AC007342DA /* landing page.png */,
 				246E08CF2F23D6F1007342DA /* list of cities.png */,
 				246E08D12F23D704007342DA /* weather details of city.png */,
+				246E08FB2F28E270007342DA /* realtime data */,
 			);
 			path = "Screenshots ";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246E08FC2F28E270007342DA /* realtime data in Resources */,
 				246E08D02F23D6F1007342DA /* list of cities.png in Resources */,
 				246E08CE2F23D6AC007342DA /* landing page.png in Resources */,
 				246E08D22F23D704007342DA /* weather details of city.png in Resources */,
