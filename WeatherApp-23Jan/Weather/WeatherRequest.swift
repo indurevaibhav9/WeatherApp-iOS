@@ -14,8 +14,8 @@ struct WeatherRequest {
 struct WeatherEndpoint: APIEndpoint {
     
     let request: WeatherRequest
-    var baseURL: String {"https://open-meteo.com/" }
-    var path : String { "v1/forecast" }
+    var baseURL: String {"https://api.open-meteo.com/" }
+    var path : String { "/v1/forecast" }
     var queryItems: [URLQueryItem] {
         [
             URLQueryItem(name: "latitude", value: "\(request.latitude)"),
