@@ -1,46 +1,45 @@
-//
-//  DetailView.swift
-//  WeatherApp-23Jan
-//
-//  Created by rentamac on 1/22/26.
-//
-
 import SwiftUI
 
 struct DetailView: View {
-    var location: Location
+    let location: Location
+    @StateObject private var viewModel = DetailViewModel()
+
     var body: some View {
-        NavigationStack {
-            ZStack {
-                Color("BackgroundColor", bundle: nil)
-                    .ignoresSafeArea()
-                VStack {
-                    Text(location.name)
-                        .font(Font.largeTitle)
-                        .foregroundStyle(.white)
-                    Image(systemName: location.weather.icon)
-                        .resizable()
-                        .frame(width: 200, height: 200)
-                        .foregroundStyle(Color.yellow)
-                    Text(location.temperature.temperatureText)
+        ZStack {
+            Color("BackgroundColor")
+                .ignoresSafeArea()
+
+            VStack(spacing: 20) {
+                Text(location.name)
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
+
+                Image(systemName: location.weather.icon)
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(.yellow)
+
+                if viewModel.isLoading {
+                    ProgressView()
+                        .tint(.white)
+                } else if let error = viewModel.errorMessage {
+                    Text(error)
+                        .foregroundStyle(.red)
+                } else {
+                    Text(viewModel.temperatureText)
                         .font(.title)
-                        .foregroundStyle(Color.gray)
-                    Spacer()
-                    
-                    HStack
-                    {
-                        Text("A warm breeze drifted through the streets as the afternoon sun hovered behind a veil of scattered clouds. In the north, the air felt dry and dusty, while the southern coast carried the familiar scent of moisture from the sea. Somewhere in the distance, dark monsoon clouds gathered slowly, hinting at an evening shower that would cool the earth and fill the air with the sound of rain tapping on rooftops.")
-                            .font(.title)
-                            .foregroundStyle(Color.white)
-                            .padding()
-                    }
-                    Spacer()
+                        .foregroundStyle(.gray)
                 }
+
+                Spacer()
             }
+            .padding()
+        }
+        .task {
+            await viewModel.fetchWeather(
+                latitude: location.latitude,
+                longitude: location.longitude
+            )
         }
     }
-}
-
-#Preview {
-    DetailView(location: Location(name: "Mumbai", weather: .snow, temperature: Temperature(min: 22,max: 25)))
 }
