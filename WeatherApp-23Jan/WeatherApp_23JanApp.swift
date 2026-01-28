@@ -2,16 +2,22 @@
 //  WeatherApp_23JanApp.swift
 //  WeatherApp-23Jan
 //
-//  Created by rentamac on 1/22/26.
-//
 
 import SwiftUI
+import CoreData
 
 @main
 struct WeatherApp_23JanApp: App {
+
+    let persistenceController = PersistenceController.shared
+
     var body: some Scene {
         WindowGroup {
             LandingView()
+                .environment(
+                    \.managedObjectContext,
+                    persistenceController.container.viewContext
+                )
         }
     }
 }

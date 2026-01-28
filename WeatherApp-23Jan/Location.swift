@@ -41,7 +41,7 @@ enum Weather {
         let id: UUID = UUID()
         let name: String
         let weather: Weather
-        let temperature: Temperature
+        let temperature: Double?
         let latitude: Double
         let longitude: Double
     }

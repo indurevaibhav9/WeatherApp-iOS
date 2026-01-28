@@ -1,8 +1,18 @@
 import SwiftUI
+import CoreData
 
 struct DetailView: View {
+
     let location: Location
-    @StateObject private var viewModel = DetailViewModel()
+    @StateObject private var viewModel: DetailViewModel
+
+    // MARK: - Init
+    init(location: Location, context: NSManagedObjectContext) {
+        self.location = location
+        _viewModel = StateObject(
+            wrappedValue: DetailViewModel(context: context)
+        )
+    }
 
     var body: some View {
         ZStack {
@@ -28,9 +38,11 @@ struct DetailView: View {
                 if viewModel.isLoading {
                     ProgressView()
                         .tint(.white)
+
                 } else if let error = viewModel.errorMessage {
                     Text(error)
                         .foregroundStyle(.red)
+
                 } else {
                     VStack(spacing: 16) {
 

@@ -23,22 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7FA635FD-20AE-42B5-9A08-F2951296A7FB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherApp-23Jan/ListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "945FFA01-0FD8-4D75-A3BF-F86CA5F466E4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -130,6 +114,52 @@
             endingLineNumber = "22"
             landmarkName = "request(endpoint:responseType:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5C9816A-FDB9-4663-A4A8-41588B313308"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherApp-23Jan/ListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "cachedTemperature(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5C9816A-FDB9-4663-A4A8-41588B313308 - 31d3165af168fc5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherApp_iOS.ListView.cachedTemperature(for: WeatherApp_iOS.Location) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "WeatherApp-iOS.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30">
+               </Location>
+               <Location
+                  uuid = "D5C9816A-FDB9-4663-A4A8-41588B313308 - 31d3165af168fc5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherApp_iOS.ListView.cachedTemperature(for: WeatherApp_iOS.Location) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "WeatherApp-iOS.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
