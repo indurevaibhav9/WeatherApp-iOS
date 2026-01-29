@@ -130,36 +130,6 @@
             endingLineNumber = "29"
             landmarkName = "cachedTemperature(for:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D5C9816A-FDB9-4663-A4A8-41588B313308 - 31d3165af168fc5a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WeatherApp_iOS.ListView.cachedTemperature(for: WeatherApp_iOS.Location) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/ListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30">
-               </Location>
-               <Location
-                  uuid = "D5C9816A-FDB9-4663-A4A8-41588B313308 - 31d3165af168fc5a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WeatherApp_iOS.ListView.cachedTemperature(for: WeatherApp_iOS.Location) -&gt; Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "WeatherApp-iOS.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rentamac/Desktop/ANZ-IOS-Training/WeatherApp-23Jan/WeatherApp-23Jan/ListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

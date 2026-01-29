@@ -49,7 +49,29 @@ struct LandingView: View {
                 .padding()
             }
         }
+        .onAppear {
+            printDetails()
+        }
     }
+        
+}
+
+func printDetails() {
+    if let baseURL = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as? String {
+          print("baseURL: https://\(baseURL)")
+        }
+        
+        if let enabled = Bundle.main.object(forInfoDictionaryKey: "ANALYTICS_ENABLED") as? String {
+          print("ANALYTICS_ENABLED: \(enabled)")
+        }
+        
+        if let config = Bundle.main.object(forInfoDictionaryKey: "Configuration") as? String {
+          print("CONFIGURATION: \(config)")
+        }
+
+        if let envVar = ProcessInfo.processInfo.environment["ENV_WEA"] {
+          print("envVar: \(envVar)")
+        }
 }
 
 #Preview {

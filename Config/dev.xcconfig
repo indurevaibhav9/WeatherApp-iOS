@@ -1,0 +1,11 @@
+//
+//  dev.xcconfig
+//  WeatherApp-iOS
+//
+//  Created by rentamac on 1/29/26.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+BASE_URL_CONFIG = dev.app.com
