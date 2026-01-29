@@ -12,6 +12,7 @@
 		246E08D22F23D704007342DA /* weather details of city.png in Resources */ = {isa = PBXBuildFile; fileRef = 246E08D12F23D704007342DA /* weather details of city.png */; };
 		246E08FC2F28E270007342DA /* realtime data in Resources */ = {isa = PBXBuildFile; fileRef = 246E08FB2F28E270007342DA /* realtime data */; };
 		246E09032F2916A2007342DA /* Data from api in Resources */ = {isa = PBXBuildFile; fileRef = 246E09022F2916A2007342DA /* Data from api */; };
+		24781B1C2F2B264000AC05B6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24781B1B2F2B264000AC05B6 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		246E08D12F23D704007342DA /* weather details of city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather details of city.png"; sourceTree = "<group>"; };
 		246E08FB2F28E270007342DA /* realtime data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "realtime data"; sourceTree = "<group>"; };
 		246E09022F2916A2007342DA /* Data from api */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data from api"; sourceTree = "<group>"; };
+		24781B1B2F2B264000AC05B6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,6 +48,7 @@
 		246E08962F235009007342DA = {
 			isa = PBXGroup;
 			children = (
+				24781B1B2F2B264000AC05B6 /* Launch Screen.storyboard */,
 				246E08CC2F23D696007342DA /* Screenshots  */,
 				246E08CA2F23D39A007342DA /* README.md */,
 				246E08A12F235009007342DA /* WeatherApp-23Jan */,
@@ -142,6 +145,7 @@
 				246E08CE2F23D6AC007342DA /* landing page.png in Resources */,
 				246E09032F2916A2007342DA /* Data from api in Resources */,
 				246E08D22F23D704007342DA /* weather details of city.png in Resources */,
+				24781B1C2F2B264000AC05B6 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,6 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
