@@ -33,7 +33,7 @@
 			path = "WeatherApp-23Jan";
 			sourceTree = "<group>";
 		};
-		24781B652F2B85A200AC05B6 /* Config */ = {
+		24781B732F2B94D600AC05B6 /* Config */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Config;
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				24781B682F2B8C7000AC05B6 /* WeatherApp-iOS-Info.plist */,
-				24781B652F2B85A200AC05B6 /* Config */,
+				24781B732F2B94D600AC05B6 /* Config */,
 				24781B1B2F2B264000AC05B6 /* Launch Screen.storyboard */,
 				246E08CC2F23D696007342DA /* Screenshots  */,
 				246E08CA2F23D39A007342DA /* README.md */,
@@ -101,7 +101,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				246E08A12F235009007342DA /* WeatherApp-23Jan */,
-				24781B652F2B85A200AC05B6 /* Config */,
+				24781B732F2B94D600AC05B6 /* Config */,
 			);
 			name = "WeatherApp-iOS";
 			packageProductDependencies = (
@@ -173,8 +173,6 @@
 /* Begin XCBuildConfiguration section */
 		246E08A82F23500A007342DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 24781B652F2B85A200AC05B6 /* Config */;
-			baseConfigurationReferenceRelativePath = dev.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -238,8 +236,6 @@
 		};
 		246E08A92F23500A007342DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 24781B652F2B85A200AC05B6 /* Config */;
-			baseConfigurationReferenceRelativePath = prod.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -364,8 +360,6 @@
 		};
 		24781B662F2B865300AC05B6 /* Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 24781B652F2B85A200AC05B6 /* Config */;
-			baseConfigurationReferenceRelativePath = stage.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
