@@ -14,13 +14,7 @@ final class ListViewModel: ObservableObject {
     @Published var searchText: String = ""
    
     @Published var locations: [Location] = [
-        Location(
-            name: "Mumbai",
-            weather: .sunny,
-            temperature: nil,
-            latitude: 19.0760,
-            longitude: 72.8777
-        ),
+        
         Location(
             name: "Pune",
             weather: .rainy,
@@ -69,14 +63,8 @@ final class ListViewModel: ObservableObject {
             temperature: nil,
             latitude: 19.0760,
             longitude: 72.8777
-        ),
-        Location(
-            name: "Delhi",
-            weather: .cloudy,
-            temperature: nil,
-            latitude: 28.6139,
-            longitude: 77.2090
         )
+        
     ]
 
     var filteredLocations: [Location] { // computed property

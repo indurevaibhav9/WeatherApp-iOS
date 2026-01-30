@@ -13,6 +13,10 @@
 		246E08FC2F28E270007342DA /* realtime data in Resources */ = {isa = PBXBuildFile; fileRef = 246E08FB2F28E270007342DA /* realtime data */; };
 		246E09032F2916A2007342DA /* Data from api in Resources */ = {isa = PBXBuildFile; fileRef = 246E09022F2916A2007342DA /* Data from api */; };
 		24781B1C2F2B264000AC05B6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24781B1B2F2B264000AC05B6 /* Launch Screen.storyboard */; };
+		24781BAB2F2CBA3400AC05B6 /* add location landing page.png in Resources */ = {isa = PBXBuildFile; fileRef = 24781BAA2F2CBA3400AC05B6 /* add location landing page.png */; };
+		24781BAC2F2CBA3400AC05B6 /* response after adding location.png in Resources */ = {isa = PBXBuildFile; fileRef = 24781BA92F2CBA3400AC05B6 /* response after adding location.png */; };
+		24781BAD2F2CBA3400AC05B6 /* search result using loc name.png in Resources */ = {isa = PBXBuildFile; fileRef = 24781BA82F2CBA3400AC05B6 /* search result using loc name.png */; };
+		24781BAF2F2CBBF800AC05B6 /* env variables and cache result in Resources */ = {isa = PBXBuildFile; fileRef = 24781BAE2F2CBBF800AC05B6 /* env variables and cache result */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		246E09022F2916A2007342DA /* Data from api */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data from api"; sourceTree = "<group>"; };
 		24781B1B2F2B264000AC05B6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		24781B682F2B8C7000AC05B6 /* WeatherApp-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WeatherApp-iOS-Info.plist"; sourceTree = "<group>"; };
+		24781BA82F2CBA3400AC05B6 /* search result using loc name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search result using loc name.png"; sourceTree = "<group>"; };
+		24781BA92F2CBA3400AC05B6 /* response after adding location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "response after adding location.png"; sourceTree = "<group>"; };
+		24781BAA2F2CBA3400AC05B6 /* add location landing page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add location landing page.png"; sourceTree = "<group>"; };
+		24781BAE2F2CBBF800AC05B6 /* env variables and cache result */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "env variables and cache result"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +88,10 @@
 				246E08D12F23D704007342DA /* weather details of city.png */,
 				246E09022F2916A2007342DA /* Data from api */,
 				246E08FB2F28E270007342DA /* realtime data */,
+				24781BA82F2CBA3400AC05B6 /* search result using loc name.png */,
+				24781BA92F2CBA3400AC05B6 /* response after adding location.png */,
+				24781BAA2F2CBA3400AC05B6 /* add location landing page.png */,
+				24781BAE2F2CBBF800AC05B6 /* env variables and cache result */,
 			);
 			path = "Screenshots ";
 			sourceTree = "<group>";
@@ -151,10 +163,14 @@
 			files = (
 				246E08FC2F28E270007342DA /* realtime data in Resources */,
 				246E08D02F23D6F1007342DA /* list of cities.png in Resources */,
+				24781BAF2F2CBBF800AC05B6 /* env variables and cache result in Resources */,
 				246E08CE2F23D6AC007342DA /* landing page.png in Resources */,
 				246E09032F2916A2007342DA /* Data from api in Resources */,
 				246E08D22F23D704007342DA /* weather details of city.png in Resources */,
 				24781B1C2F2B264000AC05B6 /* Launch Screen.storyboard in Resources */,
+				24781BAB2F2CBA3400AC05B6 /* add location landing page.png in Resources */,
+				24781BAC2F2CBA3400AC05B6 /* response after adding location.png in Resources */,
+				24781BAD2F2CBA3400AC05B6 /* search result using loc name.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@ import SwiftUI
 struct LandingView: View {
     @State private var navigationState = false
     @Environment(\.managedObjectContext) private var context
+    
     var body: some View {
         NavigationStack {
             ZStack {

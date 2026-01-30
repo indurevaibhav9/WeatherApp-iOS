@@ -86,6 +86,16 @@ struct ListView: View {
                         Text("Locations")
                             .foregroundStyle(.white)
                     }
+                    ToolbarItem(placement: .topBarTrailing) {
+                        NavigationLink(
+                            destination: AddLocationView(
+                                listViewModel: viewModel
+                            )
+                        ) {
+                            Label("Add", systemImage: "plus")
+                                .foregroundStyle(.white)
+                        }
+                    }
                 }
                 .searchable(
                     text: $viewModel.searchText,
